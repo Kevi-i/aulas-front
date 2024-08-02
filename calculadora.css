@@ -1,0 +1,77 @@
+body {
+    background-color: gray;
+}
+
+.box {
+    height: 440px;
+    width: 255px;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.result {
+    display: flex;
+    justify-content: end;
+    color: white;
+    padding-top: 40px;
+    padding-right: 17px;
+}
+
+span {
+    font-size: 60px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-left: 7px;
+}
+
+.white {
+    background-color: rgb(201, 199, 199);
+    border: none;
+}
+
+.orange {
+    background-color: rgb(255, 159, 10);
+    border: none;
+    color: white;
+}
+
+.gray{
+    background-color: rgb(58, 58, 58);
+    border: none;
+    color: white;
+}
+
+.gray-0 {
+    background-color: rgb(58, 58, 58);
+    border: none;
+    color: white;
+    width: 120px;
+    border-radius: 30px;
+    padding-right: 70px;
+}
+
+button {
+    height: 57px;
+    width: 57px;
+    border-radius: 100%;
+    font-size: 25px;
+}
+
+.white:active {
+    background-color: grey;
+}
+
+.orange:active {
+    background-color: rgb(255, 200, 83);
+}
+
+.gray:active {
+    background-color: rgb(39, 39, 39);
+}
